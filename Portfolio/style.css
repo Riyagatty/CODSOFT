@@ -1,0 +1,149 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  
+  body {
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+ 
+  header {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #007acc;
+    color: #fff;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    font-weight: 600;
+  }
+  
+  .tagline {
+    font-size: 1.2em;
+    margin-top: 10px;
+    opacity: 0.8;
+  }
+  
+ 
+  section {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px 0;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  section h2 {
+    margin-bottom: 15px;
+    font-size: 2em;
+    color: #007acc;
+  }
+  
+ 
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  #skills ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  #skills li {
+    background-color: #007acc;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 20px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+  }
+  
+  #skills li:hover {
+    background-color: #005b9a;
+  }
+  
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .project h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .project img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .project img:hover {
+    transform: scale(1.05);
+  }
+  
+ 
+  #resume a {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+  }
+  
+  #resume a:hover {
+    background-color: #218838;
+  }
+  
+ 
+  #contact p {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #555;
+  }
+  
+
+  footer {
+    margin-top: 40px;
+    padding: 15px 0;
+    text-align: center;
+    background-color: #007acc;
+    color: #fff;
+    width: 100%;
+  }
+  
